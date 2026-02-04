@@ -1,0 +1,13 @@
+banking_dbt:
+  outputs:
+    dev:
+      account: td94571.us-east-2.aws
+      database: BANKING
+      password: JOHNSheaven2025#
+      role: ACCOUNTADMIN
+      schema: ANALYTICS
+      threads: 4
+      type: snowflake
+      user: WILLIAMJOHNSON
+      warehouse: COMPUTE_WH
+  target: dev
